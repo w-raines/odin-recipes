@@ -1,0 +1,42 @@
+* {
+    background-color: rgb(197, 167, 84);
+    font-family: sans-serif;
+}
+
+.desc {
+    background-color: rgb(250, 128, 114);
+    color: aquamarine;
+    text-align: center;
+}
+
+
+ol li, ul li {
+    font-size: 22px;
+}
+
+ul li {
+    font-weight: 300;
+    text-align: right;
+}
+
+ol li {
+    font-weight: 150;
+    text-align: center;
+}
+
+.ugly {
+    background-color: rgb(81, 255, 0);
+}
+
+.ugly li {
+    background-color: rgb(0, 253, 211)
+}
+
+.ugly.extra-ugly li {
+    background-color: crimson;
+    color: yellow;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
