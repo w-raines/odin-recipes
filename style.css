@@ -1,6 +1,12 @@
 * {
     background-color: rgb(197, 167, 84);
     font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: .5rem auto;
+    width: 700px;
 }
 
 .desc {
@@ -26,6 +32,7 @@ ol li {
 
 .ugly {
     background-color: rgb(81, 255, 0);
+    margin: 20px 0;
 }
 
 .ugly li {
@@ -38,5 +45,20 @@ ol li {
 }
 
 h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    margin: 30px auto;
+    display: block;
+}
+
+li {
+    padding: 1rem .25rem;
+}
+
+h3 {
+    margin: 50px 0;
 }
